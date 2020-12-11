@@ -25,7 +25,7 @@ const Quotes = () => {
         message: `There was an error retrieving the quotes: ${error.message}`
       });
     });
-  }, []);
+  }, [globalStore, setNotification]);
 
   return (
     <>

@@ -24,7 +24,7 @@ const Edit = () => {
         message: `There was an error retrieving the quote: ${error.message}`
       });
     });
-  }, []);
+  }, [globalStore, id, setNotification]);
 
   return (
     <>
